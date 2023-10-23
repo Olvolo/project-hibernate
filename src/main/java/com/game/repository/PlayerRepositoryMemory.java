@@ -81,8 +81,7 @@ public class PlayerRepositoryMemory implements IPlayerRepository {
     }
 
     @Override
-    public Player update(Player player) {
-        return player;
+    public void update(Player player) {
     }
 
     @Override
