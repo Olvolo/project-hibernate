@@ -12,7 +12,7 @@ public interface IPlayerRepository {
 
     Player save(Player player);
 
-    Player update(Player player);
+    void update(Player player);
 
     Optional<Player> findById(long id);
 
